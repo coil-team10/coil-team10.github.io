@@ -1,0 +1,24 @@
+{
+  "name": "coil-team10",
+  "version": "1.0.0",
+  "description": "Team 10's COIL project front-end web application",
+  "homepage": "https://github.com/coil-team10/coil-team10.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/coil-team10/coil-team10.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coil-team10/coil-team10.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Kaiden Keiser, Garrett Weaver, Thomas Woodrich",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
