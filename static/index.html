@@ -14,13 +14,42 @@
 </head> 
 <body>
     <div class="container">
+        <h1>COIL Project: Scam Detector</h1>
+        <h3>Spring 2025 - Team 10</h3>
+        <div id="members">
+            <div class="member">
+                <img src="./pictures/Keiser_headshot.jpg" style="width: 150px; height: 150px;">
+                <p style="text-align: center; font-size: 16px;color: navy">Kaiden Keiser</p>
+            </div>
+            <div class="member">
+                <img src="./pictures/Weaver_headshot.jpg" style="width: 150px; height: 150px;">
+                <p style="text-align: center; font-size: 16px;color: navy">Garrett Weaver</p>
+            </div>
+            <div class="member">
+                <img src="./pictures/Woodrich_headshot.JPG" style="width: 150px; height: 150px;">
+                <p style="text-align: center; font-size: 16px;color: navy">Thomas Woodrich</p>
+            </div>
+            <div class="member">
+                <img src="./pictures/Keiser_headshot.jpg" style="width: 150px; height: 150px;">
+                <p style="text-align: center; font-size: 16px;color: red">Gia Huy Hoàng</p>
+            </div>
+            <div class="member">
+                <img src="./pictures/Nguyen_headshot.jpeg" style="width: 150px; height: 150px;">
+                <p style="text-align: center; font-size: 16px;color: red">Nguyen Huy Bao</p>
+            </div>
+        </div>
+
         <div id="main">
-            <h1>Scam Detector</h1>
-            <label>Sender:</label>
-            <input type="text" id="sender">
-            <label>Message:</label>
-            <input type="text" id="message">
-            <button id="submit">SUBMIT</button>
+            <h2>Project Overview</h2>
+            <p>This project analyzes incoming text messages to determine if they are potential scams. 
+                The model will use data mining to create a dataset of known scams. 
+                The Users can input a text message, and the system will classify it as "Scam" or "Safe," 
+                providing explanations based on key scam indicators. 
+                This tool helps users avoid falling victim to text-based fraud.</p>
+            <button onclick="window.location.href='detector.html'">GO TO DETECTOR</button>
+            <video width="640" height="360" controls>
+                <source src="movie.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 </body>

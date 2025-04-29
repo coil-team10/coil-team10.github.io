@@ -16,13 +16,21 @@ html, body {
     margin: 0 auto;
 }
 
-h1 {
+h1, h2, h3 {
     font-weight: 600;
     text-align: center;
 }
 
 label {
     font-size: 16px;
+}
+
+#members {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 #sender {
@@ -34,13 +42,20 @@ label {
     height: 450px;
 }
 
-#submit {
+button {
     margin: 0 auto;
     margin-top: 8px;
     background-color: black;
-    color: white;
+    color: white !important; 
     border: none;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 18px !important;
+    font-weight: 600 !important;
     padding: 8px;
+    width: 180px;
+    align-self: center;
+}
+
+video {
+    margin-top: 30px;
+    align-self: center;
 }
