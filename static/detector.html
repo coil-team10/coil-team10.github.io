@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Scam Detector</title>
+    <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css">
      <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -16,11 +17,10 @@
     <div class="container">
         <div id="main">
             <h1>Scam Detector</h1>
-            <label>Sender:</label>
-            <input type="text" id="sender">
             <label>Message:</label>
             <input type="text" id="message">
-            <button id="submit">SUBMIT</button>
+            <button id="submit" onclick="testScam()">SUBMIT</button>
+            <div id="result"></div>
         </div>
     </div>
 </body>
