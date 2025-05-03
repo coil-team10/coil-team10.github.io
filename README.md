@@ -10,9 +10,8 @@ This project analyzes incoming text messages to determine if they are potential 
 
 ![Example of scam text message](Scam1.PNG)![Example of scam text message 2](Scam2.PNG)
 
-[Link to web app code](https://github.com/coil-team10/coil-team10.github.io)
+[Link to web app](https://coil-team10.github.io/static)
 
-[Link to deployed backend](https://coil10-scam-detection.azurewebsites.net/)
 
 **Contributors**
 
